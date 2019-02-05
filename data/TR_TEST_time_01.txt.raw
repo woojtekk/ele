@@ -1,0 +1,9 @@
+# INIT TIME STEP TEST ..................................................  
+# VDS       : 0.0 	 Current compliance 0.001
+# VGS       : 0.0 	 Current compliance 0.001
+# NPLC      : 1.0
+# DELETE    : 0.0
+# pozycja poczatkowa szhuttera: 0 keep open 0 before measurmeents
+# :: ----------------------------------- TIME --------------------------------------
+# ::     Time 	 IDS 	 IGS 	 VDS 	 VGS 	 XPIN 	 | Shutter | 	 Delta Time	     
+# :: -------------------------------------------------------------------------------
