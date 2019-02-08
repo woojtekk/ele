@@ -7,6 +7,7 @@ import K2400
 import K2400_help
 import K2400_time
 import K2400_output
+import K2400_plot
 import K2400_transfer
 import signal
 import logging
@@ -20,7 +21,7 @@ from datetime import datetime
 # -- new
 USB_VGS  = "/dev/my_USB_K2400_VGS"
 USB_VDS  = "/dev/my_USB_K2400_VDS"
-USB_PICO = "/dev/mu_USB_PICO"
+USB_PICO = "/dev/my_USB_PICO"
 
 PATH = os.path.realpath(__file__)
 PATH = os.path.splitdrive(PATH)[1]
@@ -118,7 +119,7 @@ def log_init(FName):
     global FILE
     global FF
     global plot
-    plot=plot()
+    plot=K2400_plot.plot()
     FName = checkfile(FName)
     FF    = FName
     logging.info("Create NEW FILE: " + FName)

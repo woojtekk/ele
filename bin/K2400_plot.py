@@ -7,7 +7,8 @@ import os
 import time
 import random
 from Tkinter import Tk
-from tkinter.filedialog import askopenfilename
+#from tkinter.filedialog import askopenfilename
+from tkFileDialog import askopenfilename
 import numpy as np
 
 
