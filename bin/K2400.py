@@ -1,5 +1,8 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
+
+
+
 import K2400
 import K2400_help
 import K2400_time
@@ -12,25 +15,23 @@ import os
 import fcntl
 import sys
 import shutil
-import time
 from datetime import datetime
 
 # -- new
-USB_VGS  = "/dev/ttyUSB_VGS"
-USB_VDS  = "/dev/ttyUSB_VDS"
-USB_PICO = "/dev/ttyUSB_PICO"
+USB_VGS  = "/dev/my_USB_K2400_VGS"
+USB_VDS  = "/dev/my_USB_K2400_VGS"
+USB_PICO = "/dev/mu_PICO"
 
 PATH = os.path.realpath(__file__)
 PATH = os.path.splitdrive(PATH)[1]
 PATH = os.path.dirname(os.path.dirname(PATH))
-print "::: PATH: ", PATH
 
-PATH_LOG    = PATH + "/log/"
-PATH_DATA   = PATH + "/data/"
-FILE_SSHT   = PATH + "/wd/shutter.txt"
-FILE_START  = PATH + "/wd/start.txt"
-FILE_CHANGE = PATH + "/wd/change.txt"
-FILE_SWITCH = PATH + "/wd/switch.txt"
+PATH_LOG     = PATH + "/log/"
+PATH_DATA    = PATH + "/data/"
+FILE_SSHT    = PATH + "/wd/shutter.txt"
+FILE_START   = PATH + "/wd/start.txt"
+FILE_CHANGE  = PATH + "/wd/change.txt"
+FILE_SWITCH  = PATH + "/wd/switch.txt"
 FILE_COMMENTS = PATH + "/wd/comments.txt"
 FILE_NAME   = "TR_TEST"
 PICNPLC     = 1.0
