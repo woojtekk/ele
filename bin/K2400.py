@@ -141,7 +141,15 @@ def log_save(txt):
     log_save_to_file(txt)
     log_save_comments()
     log_save_raw(txt)
-    plot.plt_update(txt)
+
+
+    try:
+        x = float(txt.split()[0])
+        y = float(txt.split()[1])
+        plot.plt_update(x, y)
+    except ValueError:
+        pass
+
 
 
 def log_save_comments():
@@ -426,6 +434,10 @@ def port_error(ser, cmd):
 if __name__ == '__main__':
     args = K2400_help.help()
     log_reset()
+
+    global fig
+    fig = args.fig
+    print fig
 
     # ------- podstawowe parametry:
     if args.filename != "tr00": FILE_NAME = args.filename
