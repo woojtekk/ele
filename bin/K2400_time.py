@@ -2,7 +2,6 @@
 # -*- coding: utf-8 -*-
 import K2400
 import logging
-import time
 from multiprocessing.pool import ThreadPool
 from datetime import datetime
 
