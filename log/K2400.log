@@ -1,341 +1,171 @@
-2019-02-08 13:31:28,222 :: root :: let it start
-2019-02-08 13:31:50,146 :: root :: let it start
-2019-02-08 13:31:51,170 :: root :: let it start
-2019-02-08 13:32:33,627 :: root :: let it start
-2019-02-08 13:32:34,404 :: root :: let it start
-2019-02-11 08:46:07,191 :: root :: let it start
-2019-02-11 08:46:07,193 :: root :: --------------- NEW ------------------
-2019-02-11 08:46:07,193 :: root :: INIT - START
-2019-02-11 08:46:07,194 :: root :: INIT:: USB_VDS:/dev/my_USB_K2400_VDS
-2019-02-11 08:46:07,194 :: root :: INIT:: USB_VGS:/dev/my_USB_K2400_VGS
-2019-02-11 08:46:07,194 :: root :: INIT:: USB_PIC:/dev/my_USB_PICO
-2019-02-11 08:46:07,195 :: root :: INIT_PORT
-2019-02-11 08:46:07,196 :: root :: INIT_PORT
-2019-02-11 08:46:07,197 :: root :: INIT_PORT
-2019-02-11 08:46:07,197 :: root :: INIT:: ser_VDS:Serial<id=0xb2424bec, open=True>(port='/dev/my_USB_K2400_VDS', baudrate=9600, bytesize=8, parity='N', stopbits=1, timeout=1, xonxoff=0, rtscts=1, dsrdtr=False)
-2019-02-11 08:46:07,197 :: root :: INIT:: ser_VGS:Serial<id=0xb2ba150c, open=True>(port='/dev/my_USB_K2400_VGS', baudrate=9600, bytesize=8, parity='N', stopbits=1, timeout=1, xonxoff=0, rtscts=1, dsrdtr=False)
-2019-02-11 08:46:07,198 :: root :: INIT:: ser_PIC:Serial<id=0xb242aaac, open=True>(port='/dev/my_USB_PICO', baudrate=9600, bytesize=8, parity='N', stopbits=1, timeout=1, xonxoff=0, rtscts=1, dsrdtr=False)
-2019-02-11 08:46:07,198 :: root :: INIT_CONTROLER
-2019-02-11 08:46:07,198 :: root :: INIT_CONTROLER
-2019-02-11 08:46:07,198 :: root :: INIT_CONTROLER_PIC
-2019-02-11 08:46:07,198 :: root :: INIT - END
-2019-02-11 08:46:07,198 :: root :: ********* TIME_STEPS_START *********
-2019-02-11 08:46:07,198 :: root :: CHECK FILE: /home/mar345/src/ele_git/ele/data/TR_TEST_time.txt
-2019-02-11 08:46:07,198 :: root :: CHECK FILE: /home/mar345/src/ele_git/ele/data/TR_TEST_time.txt
-2019-02-11 08:46:07,199 :: root :: CHECK FILE will save:/home/mar345/src/ele_git/ele/data/TR_TEST_time.txt
-2019-02-11 08:46:07,199 :: root :: Create NEW FILE: /home/mar345/src/ele_git/ele/data/TR_TEST_time.txt
-2019-02-11 08:46:07,200 :: root :: SET_VOLTAGE_INIT: Serial<id=0xb2424bec, open=True>(port='/dev/my_USB_K2400_VDS', baudrate=9600, bytesize=8, parity='N', stopbits=1, timeout=1, xonxoff=0, rtscts=1, dsrdtr=False)
-2019-02-11 08:46:07,200 :: root :: 0.1 0.001 1.0 0.0 OUTPUT ON
-2019-02-11 08:46:07,203 :: root :: SET_VOLTAGE_INIT: Serial<id=0xb2ba150c, open=True>(port='/dev/my_USB_K2400_VGS', baudrate=9600, bytesize=8, parity='N', stopbits=1, timeout=1, xonxoff=0, rtscts=1, dsrdtr=False)
-2019-02-11 08:46:07,203 :: root :: 0.1 0.001 1.0 0.0 OUTPUT ON
-2019-02-11 08:47:22,492 :: root :: USE SWITCH: OFF
-2019-02-11 08:47:22,493 :: root :: CREATE FILE FOOTER
-2019-02-11 08:47:22,493 :: root :: SENS OFF [:OUTP OFF]
-2019-02-11 08:47:22,493 :: root :: SENS OFF [:OUTP OFF]
-2019-02-11 08:47:22,732 :: root :: READ ERRORS
-2019-02-11 08:47:22,938 :: root :: READ ERRORS
-2019-02-11 08:47:23,148 :: root :: Serial<id=0xb2424bec, open=True>(port='/dev/my_USB_K2400_VDS', baudrate=9600, bytesize=8, parity='N', stopbits=1, timeout=1, xonxoff=0, rtscts=1, dsrdtr=False)
-2019-02-11 08:47:23,152 :: root :: PORT: CLOSE
-2019-02-11 08:47:23,152 :: root :: Serial<id=0xb2ba150c, open=True>(port='/dev/my_USB_K2400_VGS', baudrate=9600, bytesize=8, parity='N', stopbits=1, timeout=1, xonxoff=0, rtscts=1, dsrdtr=False)
-2019-02-11 08:47:23,160 :: root :: PORT: CLOSE
-2019-02-11 08:47:23,160 :: root :: Serial<id=0xb242aaac, open=True>(port='/dev/my_USB_PICO', baudrate=9600, bytesize=8, parity='N', stopbits=1, timeout=1, xonxoff=0, rtscts=1, dsrdtr=False)
-2019-02-11 08:47:23,463 :: root :: PORT: CLOSE
-2019-02-11 08:47:38,406 :: root :: let it start
-2019-02-11 08:47:47,947 :: root :: let it start
-2019-02-11 08:48:14,637 :: root :: let it start
-2019-02-11 08:48:21,953 :: root :: let it start
-2019-02-11 08:48:21,956 :: root :: --------------- NEW ------------------
-2019-02-11 08:48:21,956 :: root :: INIT - START
-2019-02-11 08:48:21,956 :: root :: INIT:: USB_VDS:/dev/my_USB_K2400_VDS
-2019-02-11 08:48:21,956 :: root :: INIT:: USB_VGS:/dev/my_USB_K2400_VGS
-2019-02-11 08:48:21,956 :: root :: INIT:: USB_PIC:/dev/my_USB_PICO
-2019-02-11 08:48:21,957 :: root :: INIT_PORT
-2019-02-11 08:48:21,959 :: root :: INIT_PORT
-2019-02-11 08:48:21,960 :: root :: INIT_PORT
-2019-02-11 08:48:21,960 :: root :: INIT:: ser_VDS:Serial<id=0xb2474b6c, open=True>(port='/dev/my_USB_K2400_VDS', baudrate=9600, bytesize=8, parity='N', stopbits=1, timeout=1, xonxoff=0, rtscts=1, dsrdtr=False)
-2019-02-11 08:48:21,960 :: root :: INIT:: ser_VGS:Serial<id=0xb2bf148c, open=True>(port='/dev/my_USB_K2400_VGS', baudrate=9600, bytesize=8, parity='N', stopbits=1, timeout=1, xonxoff=0, rtscts=1, dsrdtr=False)
-2019-02-11 08:48:21,960 :: root :: INIT:: ser_PIC:Serial<id=0xb247ba2c, open=True>(port='/dev/my_USB_PICO', baudrate=9600, bytesize=8, parity='N', stopbits=1, timeout=1, xonxoff=0, rtscts=1, dsrdtr=False)
-2019-02-11 08:48:21,960 :: root :: INIT_CONTROLER
-2019-02-11 08:48:21,960 :: root :: INIT_CONTROLER
-2019-02-11 08:48:21,961 :: root :: INIT_CONTROLER_PIC
-2019-02-11 08:48:21,961 :: root :: INIT - END
-2019-02-11 08:48:21,961 :: root :: ********* TIME_STEPS_START *********
-2019-02-11 08:48:21,961 :: root :: CHECK FILE: /home/mar345/src/ele_git/ele/data/TR_TEST_time.txt
-2019-02-11 08:48:21,961 :: root :: CHECK FILE: /home/mar345/src/ele_git/ele/data/TR_TEST_time.txt
-2019-02-11 08:48:21,961 :: root :: CHECK FILE will save:/home/mar345/src/ele_git/ele/data/TR_TEST_time_01.txt
-2019-02-11 08:48:21,962 :: root :: Create NEW FILE: /home/mar345/src/ele_git/ele/data/TR_TEST_time_01.txt
-2019-02-11 08:49:57,954 :: root :: START measurements freom start funcztion
-2019-02-11 08:49:57,955 :: root :: SET_VOLTAGE_INIT: Serial<id=0xb2474b6c, open=True>(port='/dev/my_USB_K2400_VDS', baudrate=9600, bytesize=8, parity='N', stopbits=1, timeout=1, xonxoff=0, rtscts=1, dsrdtr=False)
-2019-02-11 08:49:57,955 :: root :: 0.1 0.001 1.0 0.0 OUTPUT ON
-2019-02-11 08:49:57,956 :: root :: SET_VOLTAGE_INIT: Serial<id=0xb2bf148c, open=True>(port='/dev/my_USB_K2400_VGS', baudrate=9600, bytesize=8, parity='N', stopbits=1, timeout=1, xonxoff=0, rtscts=1, dsrdtr=False)
-2019-02-11 08:49:57,956 :: root :: 0.1 0.001 1.0 0.0 OUTPUT ON
-2019-02-11 08:50:17,462 :: root :: USE SWITCH: OFF
-2019-02-11 08:50:17,462 :: root :: CREATE FILE FOOTER
-2019-02-11 08:50:17,462 :: root :: SENS OFF [:OUTP OFF]
-2019-02-11 08:50:17,463 :: root :: SENS OFF [:OUTP OFF]
-2019-02-11 08:50:17,702 :: root :: READ ERRORS
-2019-02-11 08:50:17,908 :: root :: READ ERRORS
-2019-02-11 08:50:18,118 :: root :: Serial<id=0xb2474b6c, open=True>(port='/dev/my_USB_K2400_VDS', baudrate=9600, bytesize=8, parity='N', stopbits=1, timeout=1, xonxoff=0, rtscts=1, dsrdtr=False)
-2019-02-11 08:50:18,121 :: root :: PORT: CLOSE
-2019-02-11 08:50:18,121 :: root :: Serial<id=0xb2bf148c, open=True>(port='/dev/my_USB_K2400_VGS', baudrate=9600, bytesize=8, parity='N', stopbits=1, timeout=1, xonxoff=0, rtscts=1, dsrdtr=False)
-2019-02-11 08:50:18,128 :: root :: PORT: CLOSE
-2019-02-11 08:50:18,128 :: root :: Serial<id=0xb247ba2c, open=True>(port='/dev/my_USB_PICO', baudrate=9600, bytesize=8, parity='N', stopbits=1, timeout=1, xonxoff=0, rtscts=1, dsrdtr=False)
-2019-02-11 08:50:18,403 :: root :: PORT: CLOSE
-2019-02-11 08:51:28,831 :: root :: let it start
-2019-02-11 08:51:28,834 :: root :: --------------- NEW ------------------
-2019-02-11 08:51:28,834 :: root :: INIT - START
-2019-02-11 08:51:28,834 :: root :: INIT:: USB_VDS:/dev/my_USB_K2400_VDS
-2019-02-11 08:51:28,834 :: root :: INIT:: USB_VGS:/dev/my_USB_K2400_VGS
-2019-02-11 08:51:28,834 :: root :: INIT:: USB_PIC:/dev/my_USB_PICO
-2019-02-11 08:51:28,835 :: root :: INIT_PORT
-2019-02-11 08:51:28,836 :: root :: INIT_PORT
-2019-02-11 08:51:28,838 :: root :: INIT_PORT
-2019-02-11 08:51:28,838 :: root :: INIT:: ser_VDS:Serial<id=0xb23a4b6c, open=True>(port='/dev/my_USB_K2400_VDS', baudrate=9600, bytesize=8, parity='N', stopbits=1, timeout=1, xonxoff=0, rtscts=1, dsrdtr=False)
-2019-02-11 08:51:28,838 :: root :: INIT:: ser_VGS:Serial<id=0xb2b2148c, open=True>(port='/dev/my_USB_K2400_VGS', baudrate=9600, bytesize=8, parity='N', stopbits=1, timeout=1, xonxoff=0, rtscts=1, dsrdtr=False)
-2019-02-11 08:51:28,838 :: root :: INIT:: ser_PIC:Serial<id=0xb23aba2c, open=True>(port='/dev/my_USB_PICO', baudrate=9600, bytesize=8, parity='N', stopbits=1, timeout=1, xonxoff=0, rtscts=1, dsrdtr=False)
-2019-02-11 08:51:28,838 :: root :: INIT_CONTROLER
-2019-02-11 08:51:28,839 :: root :: INIT_CONTROLER
-2019-02-11 08:51:28,839 :: root :: INIT_CONTROLER_PIC
-2019-02-11 08:51:28,839 :: root :: INIT - END
-2019-02-11 08:51:28,839 :: root :: ********* TIME_STEPS_START *********
-2019-02-11 08:51:28,839 :: root :: CHECK FILE: /home/mar345/src/ele_git/ele/data/TR_TEST_time.txt
-2019-02-11 08:51:28,839 :: root :: CHECK FILE: /home/mar345/src/ele_git/ele/data/TR_TEST_time.txt
-2019-02-11 08:51:28,839 :: root :: CHECK FILE will save:/home/mar345/src/ele_git/ele/data/TR_TEST_time_02.txt
-2019-02-11 08:51:28,839 :: root :: Create NEW FILE: /home/mar345/src/ele_git/ele/data/TR_TEST_time_02.txt
-2019-02-11 08:51:28,840 :: root :: SET_VOLTAGE_INIT: Serial<id=0xb23a4b6c, open=True>(port='/dev/my_USB_K2400_VDS', baudrate=9600, bytesize=8, parity='N', stopbits=1, timeout=1, xonxoff=0, rtscts=1, dsrdtr=False)
-2019-02-11 08:51:28,840 :: root :: 0.1 0.001 1.0 0.0 OUTPUT ON
-2019-02-11 08:51:28,849 :: root :: SET_VOLTAGE_INIT: Serial<id=0xb2b2148c, open=True>(port='/dev/my_USB_K2400_VGS', baudrate=9600, bytesize=8, parity='N', stopbits=1, timeout=1, xonxoff=0, rtscts=1, dsrdtr=False)
-2019-02-11 08:51:28,849 :: root :: 0.1 0.001 1.0 0.0 OUTPUT ON
-2019-02-11 08:52:31,114 :: root :: USE SWITCH: OFF
-2019-02-11 08:52:31,114 :: root :: CREATE FILE FOOTER
-2019-02-11 08:52:31,114 :: root :: SENS OFF [:OUTP OFF]
-2019-02-11 08:52:31,114 :: root :: SENS OFF [:OUTP OFF]
-2019-02-11 08:52:31,354 :: root :: READ ERRORS
-2019-02-11 08:52:31,544 :: root :: READ ERRORS
-2019-02-11 08:52:31,754 :: root :: Serial<id=0xb23a4b6c, open=True>(port='/dev/my_USB_K2400_VDS', baudrate=9600, bytesize=8, parity='N', stopbits=1, timeout=1, xonxoff=0, rtscts=1, dsrdtr=False)
-2019-02-11 08:52:31,760 :: root :: PORT: CLOSE
-2019-02-11 08:52:31,760 :: root :: Serial<id=0xb2b2148c, open=True>(port='/dev/my_USB_K2400_VGS', baudrate=9600, bytesize=8, parity='N', stopbits=1, timeout=1, xonxoff=0, rtscts=1, dsrdtr=False)
-2019-02-11 08:52:31,764 :: root :: PORT: CLOSE
-2019-02-11 08:52:31,764 :: root :: Serial<id=0xb23aba2c, open=True>(port='/dev/my_USB_PICO', baudrate=9600, bytesize=8, parity='N', stopbits=1, timeout=1, xonxoff=0, rtscts=1, dsrdtr=False)
-2019-02-11 08:52:32,035 :: root :: PORT: CLOSE
-2019-02-11 08:53:22,405 :: root :: let it start
-2019-02-11 08:53:37,825 :: root :: let it start
-2019-02-11 08:53:37,828 :: root :: --------------- NEW ------------------
-2019-02-11 08:53:37,828 :: root :: INIT - START
-2019-02-11 08:53:37,828 :: root :: INIT:: USB_VDS:/dev/my_USB_K2400_VDS
-2019-02-11 08:53:37,828 :: root :: INIT:: USB_VGS:/dev/my_USB_K2400_VGS
-2019-02-11 08:53:37,828 :: root :: INIT:: USB_PIC:/dev/my_USB_PICO
-2019-02-11 08:53:37,829 :: root :: INIT_PORT
-2019-02-11 08:53:37,830 :: root :: INIT_PORT
-2019-02-11 08:53:37,832 :: root :: INIT_PORT
-2019-02-11 08:53:37,832 :: root :: INIT:: ser_VDS:Serial<id=0xb2407b6c, open=True>(port='/dev/my_USB_K2400_VDS', baudrate=9600, bytesize=8, parity='N', stopbits=1, timeout=1, xonxoff=0, rtscts=1, dsrdtr=False)
-2019-02-11 08:53:37,832 :: root :: INIT:: ser_VGS:Serial<id=0xb2b8448c, open=True>(port='/dev/my_USB_K2400_VGS', baudrate=9600, bytesize=8, parity='N', stopbits=1, timeout=1, xonxoff=0, rtscts=1, dsrdtr=False)
-2019-02-11 08:53:37,832 :: root :: INIT:: ser_PIC:Serial<id=0xb240ea2c, open=True>(port='/dev/my_USB_PICO', baudrate=9600, bytesize=8, parity='N', stopbits=1, timeout=1, xonxoff=0, rtscts=1, dsrdtr=False)
-2019-02-11 08:53:37,832 :: root :: INIT_CONTROLER
-2019-02-11 08:53:37,832 :: root :: INIT_CONTROLER
-2019-02-11 08:53:37,833 :: root :: INIT_CONTROLER_PIC
-2019-02-11 08:53:37,833 :: root :: INIT - END
-2019-02-11 08:53:37,833 :: root :: ********* TRANSFER_STEPS_START *********
-2019-02-11 08:53:37,833 :: root :: CHECK FILE: /home/mar345/src/ele_git/ele/data/TR_TEST_transfer.txt
-2019-02-11 08:53:37,833 :: root :: CHECK FILE: /home/mar345/src/ele_git/ele/data/TR_TEST_transfer.txt
-2019-02-11 08:53:37,833 :: root :: CHECK FILE will save:/home/mar345/src/ele_git/ele/data/TR_TEST_transfer.txt
-2019-02-11 08:53:37,833 :: root :: Create NEW FILE: /home/mar345/src/ele_git/ele/data/TR_TEST_transfer.txt
-2019-02-11 08:53:37,904 :: root :: SET_VOLTAGE_INIT: Serial<id=0xb2407b6c, open=True>(port='/dev/my_USB_K2400_VDS', baudrate=9600, bytesize=8, parity='N', stopbits=1, timeout=1, xonxoff=0, rtscts=1, dsrdtr=False)
-2019-02-11 08:53:37,904 :: root :: 0 0.001 1.0 0.0 OUTPUT ON
-2019-02-11 08:53:37,905 :: root :: SET_VOLTAGE_INIT: Serial<id=0xb2b8448c, open=True>(port='/dev/my_USB_K2400_VGS', baudrate=9600, bytesize=8, parity='N', stopbits=1, timeout=1, xonxoff=0, rtscts=1, dsrdtr=False)
-2019-02-11 08:53:37,905 :: root :: 0 0.001 1.0 0.0 OUTPUT ON
-2019-02-11 08:53:44,307 :: root :: CREATE FILE FOOTER
-2019-02-11 08:53:44,307 :: root :: SENS OFF [:OUTP OFF]
-2019-02-11 08:53:44,307 :: root :: SENS OFF [:OUTP OFF]
-2019-02-11 08:53:44,546 :: root :: READ ERRORS
-2019-02-11 08:53:44,755 :: root :: READ ERRORS
-2019-02-11 08:53:44,962 :: root :: Serial<id=0xb2407b6c, open=True>(port='/dev/my_USB_K2400_VDS', baudrate=9600, bytesize=8, parity='N', stopbits=1, timeout=1, xonxoff=0, rtscts=1, dsrdtr=False)
-2019-02-11 08:53:44,969 :: root :: PORT: CLOSE
-2019-02-11 08:53:44,969 :: root :: Serial<id=0xb2b8448c, open=True>(port='/dev/my_USB_K2400_VGS', baudrate=9600, bytesize=8, parity='N', stopbits=1, timeout=1, xonxoff=0, rtscts=1, dsrdtr=False)
-2019-02-11 08:53:44,973 :: root :: PORT: CLOSE
-2019-02-11 08:53:44,973 :: root :: Serial<id=0xb240ea2c, open=True>(port='/dev/my_USB_PICO', baudrate=9600, bytesize=8, parity='N', stopbits=1, timeout=1, xonxoff=0, rtscts=1, dsrdtr=False)
-2019-02-11 08:53:45,254 :: root :: PORT: CLOSE
-2019-02-11 08:54:16,287 :: root :: let it start
-2019-02-11 08:54:16,290 :: root :: --------------- NEW ------------------
-2019-02-11 08:54:16,290 :: root :: INIT - START
-2019-02-11 08:54:16,290 :: root :: INIT:: USB_VDS:/dev/my_USB_K2400_VDS
-2019-02-11 08:54:16,290 :: root :: INIT:: USB_VGS:/dev/my_USB_K2400_VGS
-2019-02-11 08:54:16,290 :: root :: INIT:: USB_PIC:/dev/my_USB_PICO
-2019-02-11 08:54:16,291 :: root :: INIT_PORT
-2019-02-11 08:54:16,293 :: root :: INIT_PORT
-2019-02-11 08:54:16,294 :: root :: INIT_PORT
-2019-02-11 08:54:16,294 :: root :: INIT:: ser_VDS:Serial<id=0xb23b1cac, open=True>(port='/dev/my_USB_K2400_VDS', baudrate=9600, bytesize=8, parity='N', stopbits=1, timeout=1, xonxoff=0, rtscts=1, dsrdtr=False)
-2019-02-11 08:54:16,294 :: root :: INIT:: ser_VGS:Serial<id=0xb2b305cc, open=True>(port='/dev/my_USB_K2400_VGS', baudrate=9600, bytesize=8, parity='N', stopbits=1, timeout=1, xonxoff=0, rtscts=1, dsrdtr=False)
-2019-02-11 08:54:16,294 :: root :: INIT:: ser_PIC:Serial<id=0xb23bab6c, open=True>(port='/dev/my_USB_PICO', baudrate=9600, bytesize=8, parity='N', stopbits=1, timeout=1, xonxoff=0, rtscts=1, dsrdtr=False)
-2019-02-11 08:54:16,294 :: root :: INIT_CONTROLER
-2019-02-11 08:54:16,294 :: root :: INIT_CONTROLER
-2019-02-11 08:54:16,295 :: root :: INIT_CONTROLER_PIC
-2019-02-11 08:54:16,295 :: root :: INIT - END
-2019-02-11 08:54:16,295 :: root :: ********* TRANSFER_STEPS_START *********
-2019-02-11 08:54:16,295 :: root :: CHECK FILE: /home/mar345/src/ele_git/ele/data/TR_TEST_transfer.txt
-2019-02-11 08:54:16,295 :: root :: CHECK FILE: /home/mar345/src/ele_git/ele/data/TR_TEST_transfer.txt
-2019-02-11 08:54:16,295 :: root :: CHECK FILE will save:/home/mar345/src/ele_git/ele/data/TR_TEST_transfer_01.txt
-2019-02-11 08:54:16,295 :: root :: Create NEW FILE: /home/mar345/src/ele_git/ele/data/TR_TEST_transfer_01.txt
-2019-02-11 08:54:16,296 :: root :: SET_VOLTAGE_INIT: Serial<id=0xb23b1cac, open=True>(port='/dev/my_USB_K2400_VDS', baudrate=9600, bytesize=8, parity='N', stopbits=1, timeout=1, xonxoff=0, rtscts=1, dsrdtr=False)
-2019-02-11 08:54:16,296 :: root :: 0 0.001 1.0 0.0 OUTPUT ON
-2019-02-11 08:54:16,305 :: root :: SET_VOLTAGE_INIT: Serial<id=0xb2b305cc, open=True>(port='/dev/my_USB_K2400_VGS', baudrate=9600, bytesize=8, parity='N', stopbits=1, timeout=1, xonxoff=0, rtscts=1, dsrdtr=False)
-2019-02-11 08:54:16,305 :: root :: 0 0.001 1.0 0.0 OUTPUT ON
-2019-02-11 08:54:19,746 :: root :: CREATE FILE FOOTER
-2019-02-11 08:54:19,746 :: root :: SENS OFF [:OUTP OFF]
-2019-02-11 08:54:19,747 :: root :: SENS OFF [:OUTP OFF]
-2019-02-11 08:54:19,985 :: root :: READ ERRORS
-2019-02-11 08:54:20,194 :: root :: READ ERRORS
-2019-02-11 08:54:20,385 :: root :: Serial<id=0xb23b1cac, open=True>(port='/dev/my_USB_K2400_VDS', baudrate=9600, bytesize=8, parity='N', stopbits=1, timeout=1, xonxoff=0, rtscts=1, dsrdtr=False)
-2019-02-11 08:54:20,392 :: root :: PORT: CLOSE
-2019-02-11 08:54:20,392 :: root :: Serial<id=0xb2b305cc, open=True>(port='/dev/my_USB_K2400_VGS', baudrate=9600, bytesize=8, parity='N', stopbits=1, timeout=1, xonxoff=0, rtscts=1, dsrdtr=False)
-2019-02-11 08:54:20,396 :: root :: PORT: CLOSE
-2019-02-11 08:54:20,396 :: root :: Serial<id=0xb23bab6c, open=True>(port='/dev/my_USB_PICO', baudrate=9600, bytesize=8, parity='N', stopbits=1, timeout=1, xonxoff=0, rtscts=1, dsrdtr=False)
-2019-02-11 08:54:20,674 :: root :: PORT: CLOSE
-2019-02-11 08:55:42,850 :: root :: let it start
-2019-02-11 08:55:42,852 :: root :: --------------- NEW ------------------
-2019-02-11 08:55:42,853 :: root :: INIT - START
-2019-02-11 08:55:42,853 :: root :: INIT:: USB_VDS:/dev/my_USB_K2400_VDS
-2019-02-11 08:55:42,853 :: root :: INIT:: USB_VGS:/dev/my_USB_K2400_VGS
-2019-02-11 08:55:42,853 :: root :: INIT:: USB_PIC:/dev/my_USB_PICO
-2019-02-11 08:55:42,854 :: root :: INIT_PORT
-2019-02-11 08:55:42,855 :: root :: INIT_PORT
-2019-02-11 08:55:42,856 :: root :: INIT_PORT
-2019-02-11 08:55:42,856 :: root :: INIT:: ser_VDS:Serial<id=0xb239fc6c, open=True>(port='/dev/my_USB_K2400_VDS', baudrate=9600, bytesize=8, parity='N', stopbits=1, timeout=1, xonxoff=0, rtscts=1, dsrdtr=False)
-2019-02-11 08:55:42,856 :: root :: INIT:: ser_VGS:Serial<id=0xb2b1e58c, open=True>(port='/dev/my_USB_K2400_VGS', baudrate=9600, bytesize=8, parity='N', stopbits=1, timeout=1, xonxoff=0, rtscts=1, dsrdtr=False)
-2019-02-11 08:55:42,856 :: root :: INIT:: ser_PIC:Serial<id=0xb23a8b2c, open=True>(port='/dev/my_USB_PICO', baudrate=9600, bytesize=8, parity='N', stopbits=1, timeout=1, xonxoff=0, rtscts=1, dsrdtr=False)
-2019-02-11 08:55:42,857 :: root :: INIT_CONTROLER
-2019-02-11 08:55:42,857 :: root :: INIT_CONTROLER
-2019-02-11 08:55:42,857 :: root :: INIT_CONTROLER_PIC
-2019-02-11 08:55:42,857 :: root :: INIT - END
-2019-02-11 08:55:42,857 :: root :: ********* TRANSFER_STEPS_START *********
-2019-02-11 08:55:42,857 :: root :: CHECK FILE: /home/mar345/src/ele_git/ele/data/TR_TEST_transfer.txt
-2019-02-11 08:55:42,857 :: root :: CHECK FILE: /home/mar345/src/ele_git/ele/data/TR_TEST_transfer.txt
-2019-02-11 08:55:42,857 :: root :: CHECK FILE will save:/home/mar345/src/ele_git/ele/data/TR_TEST_transfer_02.txt
-2019-02-11 08:55:42,858 :: root :: Create NEW FILE: /home/mar345/src/ele_git/ele/data/TR_TEST_transfer_02.txt
-2019-02-11 08:55:42,858 :: root :: SET_VOLTAGE_INIT: Serial<id=0xb239fc6c, open=True>(port='/dev/my_USB_K2400_VDS', baudrate=9600, bytesize=8, parity='N', stopbits=1, timeout=1, xonxoff=0, rtscts=1, dsrdtr=False)
-2019-02-11 08:55:42,859 :: root :: 0 0.001 1.0 0.0 OUTPUT ON
-2019-02-11 08:55:42,867 :: root :: SET_VOLTAGE_INIT: Serial<id=0xb2b1e58c, open=True>(port='/dev/my_USB_K2400_VGS', baudrate=9600, bytesize=8, parity='N', stopbits=1, timeout=1, xonxoff=0, rtscts=1, dsrdtr=False)
-2019-02-11 08:55:42,868 :: root :: 0 0.001 1.0 0.0 OUTPUT ON
-2019-02-11 08:55:46,309 :: root :: CREATE FILE FOOTER
-2019-02-11 08:55:46,309 :: root :: SENS OFF [:OUTP OFF]
-2019-02-11 08:55:46,310 :: root :: SENS OFF [:OUTP OFF]
-2019-02-11 08:55:46,548 :: root :: READ ERRORS
-2019-02-11 08:55:46,757 :: root :: READ ERRORS
-2019-02-11 08:55:46,948 :: root :: Serial<id=0xb239fc6c, open=True>(port='/dev/my_USB_K2400_VDS', baudrate=9600, bytesize=8, parity='N', stopbits=1, timeout=1, xonxoff=0, rtscts=1, dsrdtr=False)
-2019-02-11 08:55:46,956 :: root :: PORT: CLOSE
-2019-02-11 08:55:46,956 :: root :: Serial<id=0xb2b1e58c, open=True>(port='/dev/my_USB_K2400_VGS', baudrate=9600, bytesize=8, parity='N', stopbits=1, timeout=1, xonxoff=0, rtscts=1, dsrdtr=False)
-2019-02-11 08:55:46,960 :: root :: PORT: CLOSE
-2019-02-11 08:55:46,960 :: root :: Serial<id=0xb23a8b2c, open=True>(port='/dev/my_USB_PICO', baudrate=9600, bytesize=8, parity='N', stopbits=1, timeout=1, xonxoff=0, rtscts=1, dsrdtr=False)
-2019-02-11 08:55:47,235 :: root :: PORT: CLOSE
-2019-02-11 08:56:02,089 :: root :: let it start
-2019-02-11 08:56:02,092 :: root :: --------------- NEW ------------------
-2019-02-11 08:56:02,092 :: root :: INIT - START
-2019-02-11 08:56:02,092 :: root :: INIT:: USB_VDS:/dev/my_USB_K2400_VDS
-2019-02-11 08:56:02,092 :: root :: INIT:: USB_VGS:/dev/my_USB_K2400_VGS
-2019-02-11 08:56:02,092 :: root :: INIT:: USB_PIC:/dev/my_USB_PICO
-2019-02-11 08:56:02,094 :: root :: INIT_PORT
-2019-02-11 08:56:02,095 :: root :: INIT_PORT
-2019-02-11 08:56:02,096 :: root :: INIT_PORT
-2019-02-11 08:56:02,096 :: root :: INIT:: ser_VDS:Serial<id=0xb2445b8c, open=True>(port='/dev/my_USB_K2400_VDS', baudrate=9600, bytesize=8, parity='N', stopbits=1, timeout=1, xonxoff=0, rtscts=1, dsrdtr=False)
-2019-02-11 08:56:02,096 :: root :: INIT:: ser_VGS:Serial<id=0xb2bc24ac, open=True>(port='/dev/my_USB_K2400_VGS', baudrate=9600, bytesize=8, parity='N', stopbits=1, timeout=1, xonxoff=0, rtscts=1, dsrdtr=False)
-2019-02-11 08:56:02,096 :: root :: INIT:: ser_PIC:Serial<id=0xb244ca4c, open=True>(port='/dev/my_USB_PICO', baudrate=9600, bytesize=8, parity='N', stopbits=1, timeout=1, xonxoff=0, rtscts=1, dsrdtr=False)
-2019-02-11 08:56:02,096 :: root :: INIT_CONTROLER
-2019-02-11 08:56:02,096 :: root :: INIT_CONTROLER
-2019-02-11 08:56:02,097 :: root :: INIT_CONTROLER_PIC
-2019-02-11 08:56:02,097 :: root :: INIT - END
-2019-02-11 08:56:02,097 :: root :: ********* TRANSFER_STEPS_START *********
-2019-02-11 08:56:02,097 :: root :: CHECK FILE: /home/mar345/src/ele_git/ele/data/TR_TEST_transfer.txt
-2019-02-11 08:56:02,097 :: root :: CHECK FILE: /home/mar345/src/ele_git/ele/data/TR_TEST_transfer.txt
-2019-02-11 08:56:02,097 :: root :: CHECK FILE will save:/home/mar345/src/ele_git/ele/data/TR_TEST_transfer_03.txt
-2019-02-11 08:56:02,097 :: root :: Create NEW FILE: /home/mar345/src/ele_git/ele/data/TR_TEST_transfer_03.txt
-2019-02-11 08:56:02,098 :: root :: SET_VOLTAGE_INIT: Serial<id=0xb2445b8c, open=True>(port='/dev/my_USB_K2400_VDS', baudrate=9600, bytesize=8, parity='N', stopbits=1, timeout=1, xonxoff=0, rtscts=1, dsrdtr=False)
-2019-02-11 08:56:02,098 :: root :: 0 0.001 1.0 0.0 OUTPUT ON
-2019-02-11 08:56:02,107 :: root :: SET_VOLTAGE_INIT: Serial<id=0xb2bc24ac, open=True>(port='/dev/my_USB_K2400_VGS', baudrate=9600, bytesize=8, parity='N', stopbits=1, timeout=1, xonxoff=0, rtscts=1, dsrdtr=False)
-2019-02-11 08:56:02,107 :: root :: 0 0.001 1.0 0.0 OUTPUT ON
-2019-02-11 08:56:05,549 :: root :: CREATE FILE FOOTER
-2019-02-11 08:56:05,549 :: root :: SENS OFF [:OUTP OFF]
-2019-02-11 08:56:05,550 :: root :: SENS OFF [:OUTP OFF]
-2019-02-11 08:56:05,787 :: root :: READ ERRORS
-2019-02-11 08:56:05,981 :: root :: READ ERRORS
-2019-02-11 08:56:06,187 :: root :: Serial<id=0xb2445b8c, open=True>(port='/dev/my_USB_K2400_VDS', baudrate=9600, bytesize=8, parity='N', stopbits=1, timeout=1, xonxoff=0, rtscts=1, dsrdtr=False)
-2019-02-11 08:56:06,195 :: root :: PORT: CLOSE
-2019-02-11 08:56:06,195 :: root :: Serial<id=0xb2bc24ac, open=True>(port='/dev/my_USB_K2400_VGS', baudrate=9600, bytesize=8, parity='N', stopbits=1, timeout=1, xonxoff=0, rtscts=1, dsrdtr=False)
-2019-02-11 08:56:06,199 :: root :: PORT: CLOSE
-2019-02-11 08:56:06,199 :: root :: Serial<id=0xb244ca4c, open=True>(port='/dev/my_USB_PICO', baudrate=9600, bytesize=8, parity='N', stopbits=1, timeout=1, xonxoff=0, rtscts=1, dsrdtr=False)
-2019-02-11 08:56:06,499 :: root :: PORT: CLOSE
-2019-02-11 08:58:28,733 :: root :: let it start
-2019-02-11 08:58:52,751 :: root :: let it start
-2019-02-11 08:58:52,754 :: root :: --------------- NEW ------------------
-2019-02-11 08:58:52,754 :: root :: INIT - START
-2019-02-11 08:58:52,754 :: root :: INIT:: USB_VDS:/dev/my_USB_K2400_VDS
-2019-02-11 08:58:52,754 :: root :: INIT:: USB_VGS:/dev/my_USB_K2400_VGS
-2019-02-11 08:58:52,754 :: root :: INIT:: USB_PIC:/dev/my_USB_PICO
-2019-02-11 08:58:52,755 :: root :: INIT_PORT
-2019-02-11 08:58:52,757 :: root :: INIT_PORT
-2019-02-11 08:58:52,758 :: root :: INIT_PORT
-2019-02-11 08:58:52,758 :: root :: INIT:: ser_VDS:Serial<id=0xb2416b2c, open=True>(port='/dev/my_USB_K2400_VDS', baudrate=9600, bytesize=8, parity='N', stopbits=1, timeout=1, xonxoff=0, rtscts=1, dsrdtr=False)
-2019-02-11 08:58:52,758 :: root :: INIT:: ser_VGS:Serial<id=0xb2b9344c, open=True>(port='/dev/my_USB_K2400_VGS', baudrate=9600, bytesize=8, parity='N', stopbits=1, timeout=1, xonxoff=0, rtscts=1, dsrdtr=False)
-2019-02-11 08:58:52,758 :: root :: INIT:: ser_PIC:Serial<id=0xb241d9ec, open=True>(port='/dev/my_USB_PICO', baudrate=9600, bytesize=8, parity='N', stopbits=1, timeout=1, xonxoff=0, rtscts=1, dsrdtr=False)
-2019-02-11 08:58:52,758 :: root :: INIT_CONTROLER
-2019-02-11 08:58:52,758 :: root :: INIT_CONTROLER
-2019-02-11 08:58:52,758 :: root :: INIT_CONTROLER_PIC
-2019-02-11 08:58:52,759 :: root :: INIT - END
-2019-02-11 08:58:52,759 :: root :: ********* TRANSFER_STEPS_START *********
-2019-02-11 08:58:52,759 :: root :: CHECK FILE: /home/mar345/src/ele_git/ele/data/TR_TEST_transfer.txt
-2019-02-11 08:58:52,759 :: root :: CHECK FILE: /home/mar345/src/ele_git/ele/data/TR_TEST_transfer.txt
-2019-02-11 08:58:52,759 :: root :: CHECK FILE will save:/home/mar345/src/ele_git/ele/data/TR_TEST_transfer_04.txt
-2019-02-11 08:58:52,759 :: root :: Create NEW FILE: /home/mar345/src/ele_git/ele/data/TR_TEST_transfer_04.txt
-2019-02-11 08:58:52,760 :: root :: SET_VOLTAGE_INIT: Serial<id=0xb2416b2c, open=True>(port='/dev/my_USB_K2400_VDS', baudrate=9600, bytesize=8, parity='N', stopbits=1, timeout=1, xonxoff=0, rtscts=1, dsrdtr=False)
-2019-02-11 08:58:52,760 :: root :: 0 0.001 1.0 0.0 OUTPUT ON
-2019-02-11 08:58:52,769 :: root :: SET_VOLTAGE_INIT: Serial<id=0xb2b9344c, open=True>(port='/dev/my_USB_K2400_VGS', baudrate=9600, bytesize=8, parity='N', stopbits=1, timeout=1, xonxoff=0, rtscts=1, dsrdtr=False)
-2019-02-11 08:58:52,769 :: root :: 0 0.001 1.0 0.0 OUTPUT ON
-2019-02-11 08:58:59,233 :: root :: CREATE FILE FOOTER
-2019-02-11 08:58:59,233 :: root :: SENS OFF [:OUTP OFF]
-2019-02-11 08:58:59,233 :: root :: SENS OFF [:OUTP OFF]
-2019-02-11 08:58:59,472 :: root :: READ ERRORS
-2019-02-11 08:58:59,680 :: root :: READ ERRORS
-2019-02-11 08:58:59,888 :: root :: Serial<id=0xb2416b2c, open=True>(port='/dev/my_USB_K2400_VDS', baudrate=9600, bytesize=8, parity='N', stopbits=1, timeout=1, xonxoff=0, rtscts=1, dsrdtr=False)
-2019-02-11 08:58:59,895 :: root :: PORT: CLOSE
-2019-02-11 08:58:59,895 :: root :: Serial<id=0xb2b9344c, open=True>(port='/dev/my_USB_K2400_VGS', baudrate=9600, bytesize=8, parity='N', stopbits=1, timeout=1, xonxoff=0, rtscts=1, dsrdtr=False)
-2019-02-11 08:58:59,899 :: root :: PORT: CLOSE
-2019-02-11 08:58:59,899 :: root :: Serial<id=0xb241d9ec, open=True>(port='/dev/my_USB_PICO', baudrate=9600, bytesize=8, parity='N', stopbits=1, timeout=1, xonxoff=0, rtscts=1, dsrdtr=False)
-2019-02-11 08:59:00,195 :: root :: PORT: CLOSE
-2019-02-11 08:59:05,447 :: root :: let it start
-2019-02-11 08:59:05,449 :: root :: --------------- NEW ------------------
-2019-02-11 08:59:05,449 :: root :: INIT - START
-2019-02-11 08:59:05,449 :: root :: INIT:: USB_VDS:/dev/my_USB_K2400_VDS
-2019-02-11 08:59:05,449 :: root :: INIT:: USB_VGS:/dev/my_USB_K2400_VGS
-2019-02-11 08:59:05,450 :: root :: INIT:: USB_PIC:/dev/my_USB_PICO
-2019-02-11 08:59:05,451 :: root :: INIT_PORT
-2019-02-11 08:59:05,452 :: root :: INIT_PORT
-2019-02-11 08:59:05,453 :: root :: INIT_PORT
-2019-02-11 08:59:05,453 :: root :: INIT:: ser_VDS:Serial<id=0xb23b5b8c, open=True>(port='/dev/my_USB_K2400_VDS', baudrate=9600, bytesize=8, parity='N', stopbits=1, timeout=1, xonxoff=0, rtscts=1, dsrdtr=False)
-2019-02-11 08:59:05,453 :: root :: INIT:: ser_VGS:Serial<id=0xb2b324ac, open=True>(port='/dev/my_USB_K2400_VGS', baudrate=9600, bytesize=8, parity='N', stopbits=1, timeout=1, xonxoff=0, rtscts=1, dsrdtr=False)
-2019-02-11 08:59:05,453 :: root :: INIT:: ser_PIC:Serial<id=0xb23bca4c, open=True>(port='/dev/my_USB_PICO', baudrate=9600, bytesize=8, parity='N', stopbits=1, timeout=1, xonxoff=0, rtscts=1, dsrdtr=False)
-2019-02-11 08:59:05,454 :: root :: INIT_CONTROLER
-2019-02-11 08:59:05,454 :: root :: INIT_CONTROLER
-2019-02-11 08:59:05,454 :: root :: INIT_CONTROLER_PIC
-2019-02-11 08:59:05,454 :: root :: INIT - END
-2019-02-11 08:59:05,454 :: root :: ********* TRANSFER_STEPS_START *********
-2019-02-11 08:59:05,454 :: root :: CHECK FILE: /home/mar345/src/ele_git/ele/data/TR_TEST_transfer.txt
-2019-02-11 08:59:05,454 :: root :: CHECK FILE: /home/mar345/src/ele_git/ele/data/TR_TEST_transfer.txt
-2019-02-11 08:59:05,454 :: root :: CHECK FILE will save:/home/mar345/src/ele_git/ele/data/TR_TEST_transfer_05.txt
-2019-02-11 08:59:05,455 :: root :: Create NEW FILE: /home/mar345/src/ele_git/ele/data/TR_TEST_transfer_05.txt
-2019-02-11 08:59:05,455 :: root :: SET_VOLTAGE_INIT: Serial<id=0xb23b5b8c, open=True>(port='/dev/my_USB_K2400_VDS', baudrate=9600, bytesize=8, parity='N', stopbits=1, timeout=1, xonxoff=0, rtscts=1, dsrdtr=False)
-2019-02-11 08:59:05,456 :: root :: 0 0.001 1.0 0.0 OUTPUT ON
-2019-02-11 08:59:05,465 :: root :: SET_VOLTAGE_INIT: Serial<id=0xb2b324ac, open=True>(port='/dev/my_USB_K2400_VGS', baudrate=9600, bytesize=8, parity='N', stopbits=1, timeout=1, xonxoff=0, rtscts=1, dsrdtr=False)
-2019-02-11 08:59:05,465 :: root :: 0 0.001 1.0 0.0 OUTPUT ON
-2019-02-11 08:59:08,906 :: root :: CREATE FILE FOOTER
-2019-02-11 08:59:08,906 :: root :: SENS OFF [:OUTP OFF]
-2019-02-11 08:59:08,907 :: root :: SENS OFF [:OUTP OFF]
-2019-02-11 08:59:09,145 :: root :: READ ERRORS
-2019-02-11 08:59:09,354 :: root :: READ ERRORS
-2019-02-11 08:59:09,561 :: root :: Serial<id=0xb23b5b8c, open=True>(port='/dev/my_USB_K2400_VDS', baudrate=9600, bytesize=8, parity='N', stopbits=1, timeout=1, xonxoff=0, rtscts=1, dsrdtr=False)
-2019-02-11 08:59:09,565 :: root :: PORT: CLOSE
-2019-02-11 08:59:09,565 :: root :: Serial<id=0xb2b324ac, open=True>(port='/dev/my_USB_K2400_VGS', baudrate=9600, bytesize=8, parity='N', stopbits=1, timeout=1, xonxoff=0, rtscts=1, dsrdtr=False)
-2019-02-11 08:59:09,572 :: root :: PORT: CLOSE
-2019-02-11 08:59:09,572 :: root :: Serial<id=0xb23bca4c, open=True>(port='/dev/my_USB_PICO', baudrate=9600, bytesize=8, parity='N', stopbits=1, timeout=1, xonxoff=0, rtscts=1, dsrdtr=False)
-2019-02-11 08:59:09,863 :: root :: PORT: CLOSE
-2019-02-11 09:00:34,304 :: root :: let it start
-2019-02-11 09:01:14,442 :: root :: let it start
-2019-02-11 09:02:17,280 :: root :: let it start
+2019-02-11 13:32:01,960 :: root :: let it start
+2019-02-11 13:32:22,438 :: root :: let it start
+2019-02-11 13:41:51,849 :: root :: let it start
+2019-02-11 13:42:02,105 :: root :: let it start
+2019-02-11 13:42:26,424 :: root :: let it start
+2019-02-11 13:42:53,314 :: root :: let it start
+2019-02-11 13:43:14,545 :: root :: let it start
+2019-02-11 13:43:32,754 :: root :: let it start
+2019-02-11 13:43:32,756 :: root :: CHECK FILE: test_001.txt
+2019-02-11 13:44:18,154 :: root :: let it start
+2019-02-11 13:44:18,155 :: root :: CHECK FILE: /home/user/PycharmProjects/ele_new/data/test.txt
+2019-02-11 13:44:18,155 :: root :: CHECK FILE: /home/user/PycharmProjects/ele_new/data/test.txt
+2019-02-11 13:44:18,155 :: root :: CHECK FILE will save:/home/user/PycharmProjects/ele_new/data/test.txt
+2019-02-11 13:44:18,155 :: root :: Create NEW FILE: /home/user/PycharmProjects/ele_new/data/test.txt
+2019-02-11 13:44:22,073 :: root :: let it start
+2019-02-11 13:44:22,074 :: root :: CHECK FILE: /home/user/PycharmProjects/ele_new/data/test.txt
+2019-02-11 13:44:22,074 :: root :: CHECK FILE: /home/user/PycharmProjects/ele_new/data/test.txt
+2019-02-11 13:44:22,075 :: root :: CHECK FILE will save:/home/user/PycharmProjects/ele_new/data/test.txt
+2019-02-11 13:44:22,075 :: root :: Create NEW FILE: /home/user/PycharmProjects/ele_new/data/test.txt
+2019-02-11 13:44:33,368 :: root :: let it start
+2019-02-11 13:44:33,369 :: root :: CHECK FILE: /home/user/PycharmProjects/ele_new/data/test.txt
+2019-02-11 13:44:33,369 :: root :: CHECK FILE: /home/user/PycharmProjects/ele_new/data/test.txt
+2019-02-11 13:44:33,369 :: root :: CHECK FILE will save:/home/user/PycharmProjects/ele_new/data/test_01.txt
+2019-02-11 13:44:33,369 :: root :: Create NEW FILE: /home/user/PycharmProjects/ele_new/data/test_01.txt
+2019-02-11 13:45:17,472 :: root :: let it start
+2019-02-11 13:45:17,473 :: root :: CHECK FILE: /home/user/PycharmProjects/ele_new/data/test.txt
+2019-02-11 13:45:17,473 :: root :: CHECK FILE: /home/user/PycharmProjects/ele_new/data/test.txt
+2019-02-11 13:45:17,474 :: root :: CHECK FILE will save:/home/user/PycharmProjects/ele_new/data/test_02.txt
+2019-02-11 13:45:17,474 :: root :: Create NEW FILE: /home/user/PycharmProjects/ele_new/data/test_02.txt
+2019-02-11 13:45:45,763 :: root :: let it start
+2019-02-11 13:45:45,765 :: root :: CHECK FILE: /home/user/PycharmProjects/ele_new/data/test.txt
+2019-02-11 13:45:45,765 :: root :: CHECK FILE: /home/user/PycharmProjects/ele_new/data/test.txt
+2019-02-11 13:45:45,765 :: root :: CHECK FILE will save:/home/user/PycharmProjects/ele_new/data/test_03.txt
+2019-02-11 13:45:45,765 :: root :: Create NEW FILE: /home/user/PycharmProjects/ele_new/data/test_03.txt
+2019-02-11 13:46:04,511 :: root :: let it start
+2019-02-11 13:46:04,513 :: root :: CHECK FILE: /home/user/PycharmProjects/ele_new/data/test.txt
+2019-02-11 13:46:04,513 :: root :: CHECK FILE: /home/user/PycharmProjects/ele_new/data/test.txt
+2019-02-11 13:46:04,513 :: root :: CHECK FILE will save:/home/user/PycharmProjects/ele_new/data/test_04.txt
+2019-02-11 13:46:04,513 :: root :: Create NEW FILE: /home/user/PycharmProjects/ele_new/data/test_04.txt
+2019-02-11 13:46:18,636 :: root :: let it start
+2019-02-11 13:46:18,637 :: root :: CHECK FILE: /home/user/PycharmProjects/ele_new/data/test.txt
+2019-02-11 13:46:18,637 :: root :: CHECK FILE: /home/user/PycharmProjects/ele_new/data/test.txt
+2019-02-11 13:46:18,637 :: root :: CHECK FILE will save:/home/user/PycharmProjects/ele_new/data/test_05.txt
+2019-02-11 13:46:18,637 :: root :: Create NEW FILE: /home/user/PycharmProjects/ele_new/data/test_05.txt
+2019-02-11 13:46:19,963 :: root :: let it start
+2019-02-11 13:46:19,965 :: root :: CHECK FILE: /home/user/PycharmProjects/ele_new/data/test.txt
+2019-02-11 13:46:19,965 :: root :: CHECK FILE: /home/user/PycharmProjects/ele_new/data/test.txt
+2019-02-11 13:46:19,965 :: root :: CHECK FILE will save:/home/user/PycharmProjects/ele_new/data/test_06.txt
+2019-02-11 13:46:19,965 :: root :: Create NEW FILE: /home/user/PycharmProjects/ele_new/data/test_06.txt
+2019-02-11 13:46:37,201 :: root :: let it start
+2019-02-11 13:46:37,202 :: root :: CHECK FILE: /home/user/PycharmProjects/ele_new/data/test.txt
+2019-02-11 13:46:37,202 :: root :: CHECK FILE: /home/user/PycharmProjects/ele_new/data/test.txt
+2019-02-11 13:46:37,202 :: root :: CHECK FILE will save:/home/user/PycharmProjects/ele_new/data/test_07.txt
+2019-02-11 13:46:37,202 :: root :: Create NEW FILE: /home/user/PycharmProjects/ele_new/data/test_07.txt
+2019-02-11 13:46:38,920 :: root :: let it start
+2019-02-11 13:46:38,921 :: root :: CHECK FILE: /home/user/PycharmProjects/ele_new/data/test.txt
+2019-02-11 13:46:38,922 :: root :: CHECK FILE: /home/user/PycharmProjects/ele_new/data/test.txt
+2019-02-11 13:46:38,922 :: root :: CHECK FILE will save:/home/user/PycharmProjects/ele_new/data/test_08.txt
+2019-02-11 13:46:38,922 :: root :: Create NEW FILE: /home/user/PycharmProjects/ele_new/data/test_08.txt
+2019-02-11 13:46:45,410 :: root :: let it start
+2019-02-11 13:46:45,412 :: root :: CHECK FILE: /home/user/PycharmProjects/ele_new/data/test.txt
+2019-02-11 13:46:45,412 :: root :: CHECK FILE: /home/user/PycharmProjects/ele_new/data/test.txt
+2019-02-11 13:46:45,412 :: root :: CHECK FILE will save:/home/user/PycharmProjects/ele_new/data/test_09.txt
+2019-02-11 13:46:45,412 :: root :: Create NEW FILE: /home/user/PycharmProjects/ele_new/data/test_09.txt
+2019-02-11 13:50:07,529 :: root :: let it start
+2019-02-11 13:50:07,531 :: root :: CHECK FILE: /home/user/PycharmProjects/ele_new/data/test.txt
+2019-02-11 13:50:07,531 :: root :: CHECK FILE: /home/user/PycharmProjects/ele_new/data/test.txt
+2019-02-11 13:50:07,531 :: root :: CHECK FILE will save:/home/user/PycharmProjects/ele_new/data/test_10.txt
+2019-02-11 13:50:07,531 :: root :: Create NEW FILE: /home/user/PycharmProjects/ele_new/data/test_10.txt
+2019-02-11 13:50:08,939 :: root :: let it start
+2019-02-11 13:50:08,941 :: root :: CHECK FILE: /home/user/PycharmProjects/ele_new/data/test.txt
+2019-02-11 13:50:08,941 :: root :: CHECK FILE: /home/user/PycharmProjects/ele_new/data/test.txt
+2019-02-11 13:50:08,941 :: root :: CHECK FILE will save:/home/user/PycharmProjects/ele_new/data/test_11.txt
+2019-02-11 13:50:08,941 :: root :: Create NEW FILE: /home/user/PycharmProjects/ele_new/data/test_11.txt
+2019-02-11 13:50:22,841 :: root :: let it start
+2019-02-11 13:50:22,843 :: root :: CHECK FILE: /home/user/PycharmProjects/ele_new/data/test.txt
+2019-02-11 13:50:22,843 :: root :: CHECK FILE: /home/user/PycharmProjects/ele_new/data/test.txt
+2019-02-11 13:50:22,843 :: root :: CHECK FILE will save:/home/user/PycharmProjects/ele_new/data/test_12.txt
+2019-02-11 13:50:22,843 :: root :: Create NEW FILE: /home/user/PycharmProjects/ele_new/data/test_12.txt
+2019-02-11 13:51:32,419 :: root :: let it start
+2019-02-11 13:51:32,421 :: root :: CHECK FILE: /home/user/PycharmProjects/ele_new/data/test.txt
+2019-02-11 13:51:32,421 :: root :: CHECK FILE: /home/user/PycharmProjects/ele_new/data/test.txt
+2019-02-11 13:51:32,421 :: root :: CHECK FILE will save:/home/user/PycharmProjects/ele_new/data/test_13.txt
+2019-02-11 13:51:32,421 :: root :: Create NEW FILE: /home/user/PycharmProjects/ele_new/data/test_13.txt
+2019-02-11 13:51:33,690 :: root :: let it start
+2019-02-11 13:51:33,692 :: root :: CHECK FILE: /home/user/PycharmProjects/ele_new/data/test.txt
+2019-02-11 13:51:33,692 :: root :: CHECK FILE: /home/user/PycharmProjects/ele_new/data/test.txt
+2019-02-11 13:51:33,692 :: root :: CHECK FILE will save:/home/user/PycharmProjects/ele_new/data/test_14.txt
+2019-02-11 13:51:33,692 :: root :: Create NEW FILE: /home/user/PycharmProjects/ele_new/data/test_14.txt
+2019-02-11 13:53:18,598 :: root :: let it start
+2019-02-11 13:53:18,599 :: root :: CHECK FILE: /home/user/PycharmProjects/ele_new/data/test.txt
+2019-02-11 13:53:18,600 :: root :: CHECK FILE: /home/user/PycharmProjects/ele_new/data/test.txt
+2019-02-11 13:53:18,600 :: root :: CHECK FILE will save:/home/user/PycharmProjects/ele_new/data/test_15.txt
+2019-02-11 13:53:18,600 :: root :: Create NEW FILE: /home/user/PycharmProjects/ele_new/data/test_15.txt
+2019-02-11 13:53:19,749 :: root :: let it start
+2019-02-11 13:53:19,751 :: root :: CHECK FILE: /home/user/PycharmProjects/ele_new/data/test.txt
+2019-02-11 13:53:19,751 :: root :: CHECK FILE: /home/user/PycharmProjects/ele_new/data/test.txt
+2019-02-11 13:53:19,751 :: root :: CHECK FILE will save:/home/user/PycharmProjects/ele_new/data/test_16.txt
+2019-02-11 13:53:19,751 :: root :: Create NEW FILE: /home/user/PycharmProjects/ele_new/data/test_16.txt
+2019-02-11 13:53:30,667 :: root :: let it start
+2019-02-11 13:53:30,668 :: root :: CHECK FILE: /home/user/PycharmProjects/ele_new/data/test.txt
+2019-02-11 13:53:30,668 :: root :: CHECK FILE: /home/user/PycharmProjects/ele_new/data/test.txt
+2019-02-11 13:53:30,669 :: root :: CHECK FILE will save:/home/user/PycharmProjects/ele_new/data/test_17.txt
+2019-02-11 13:53:30,669 :: root :: Create NEW FILE: /home/user/PycharmProjects/ele_new/data/test_17.txt
+2019-02-11 13:54:29,041 :: root :: let it start
+2019-02-11 13:54:29,042 :: root :: CHECK FILE: /home/user/PycharmProjects/ele_new/data/test.txt
+2019-02-11 13:54:29,042 :: root :: CHECK FILE: /home/user/PycharmProjects/ele_new/data/test.txt
+2019-02-11 13:54:29,042 :: root :: CHECK FILE will save:/home/user/PycharmProjects/ele_new/data/test_18.txt
+2019-02-11 13:54:29,042 :: root :: Create NEW FILE: /home/user/PycharmProjects/ele_new/data/test_18.txt
+2019-02-11 13:54:51,991 :: root :: let it start
+2019-02-11 13:54:51,993 :: root :: CHECK FILE: /home/user/PycharmProjects/ele_new/data/test.txt
+2019-02-11 13:54:51,993 :: root :: CHECK FILE: /home/user/PycharmProjects/ele_new/data/test.txt
+2019-02-11 13:54:51,993 :: root :: CHECK FILE will save:/home/user/PycharmProjects/ele_new/data/test_19.txt
+2019-02-11 13:54:51,993 :: root :: Create NEW FILE: /home/user/PycharmProjects/ele_new/data/test_19.txt
+2019-02-11 13:54:54,172 :: root :: let it start
+2019-02-11 13:54:54,173 :: root :: CHECK FILE: /home/user/PycharmProjects/ele_new/data/test.txt
+2019-02-11 13:54:54,173 :: root :: CHECK FILE: /home/user/PycharmProjects/ele_new/data/test.txt
+2019-02-11 13:54:54,173 :: root :: CHECK FILE will save:/home/user/PycharmProjects/ele_new/data/test_20.txt
+2019-02-11 13:54:54,173 :: root :: Create NEW FILE: /home/user/PycharmProjects/ele_new/data/test_20.txt
+2019-02-11 13:55:24,408 :: root :: let it start
+2019-02-11 13:55:24,409 :: root :: CHECK FILE: /home/user/PycharmProjects/ele_new/data/test.txt
+2019-02-11 13:55:24,409 :: root :: CHECK FILE: /home/user/PycharmProjects/ele_new/data/test.txt
+2019-02-11 13:55:24,409 :: root :: CHECK FILE will save:/home/user/PycharmProjects/ele_new/data/test_21.txt
+2019-02-11 13:55:24,409 :: root :: Create NEW FILE: /home/user/PycharmProjects/ele_new/data/test_21.txt
+2019-02-11 13:55:25,786 :: root :: let it start
+2019-02-11 13:55:25,788 :: root :: CHECK FILE: /home/user/PycharmProjects/ele_new/data/test.txt
+2019-02-11 13:55:25,788 :: root :: CHECK FILE: /home/user/PycharmProjects/ele_new/data/test.txt
+2019-02-11 13:55:25,788 :: root :: CHECK FILE will save:/home/user/PycharmProjects/ele_new/data/test_22.txt
+2019-02-11 13:55:25,788 :: root :: Create NEW FILE: /home/user/PycharmProjects/ele_new/data/test_22.txt
+2019-02-11 13:55:47,767 :: root :: let it start
+2019-02-11 13:55:47,768 :: root :: CHECK FILE: /home/user/PycharmProjects/ele_new/data/test.txt
+2019-02-11 13:55:47,768 :: root :: CHECK FILE: /home/user/PycharmProjects/ele_new/data/test.txt
+2019-02-11 13:55:47,768 :: root :: CHECK FILE will save:/home/user/PycharmProjects/ele_new/data/test_23.txt
+2019-02-11 13:55:47,769 :: root :: Create NEW FILE: /home/user/PycharmProjects/ele_new/data/test_23.txt
+2019-02-11 13:57:06,134 :: root :: let it start
+2019-02-11 13:57:06,135 :: root :: CHECK FILE: /home/user/PycharmProjects/ele_new/data/test.txt
+2019-02-11 13:57:06,135 :: root :: CHECK FILE: /home/user/PycharmProjects/ele_new/data/test.txt
+2019-02-11 13:57:06,135 :: root :: CHECK FILE will save:/home/user/PycharmProjects/ele_new/data/test_24.txt
+2019-02-11 13:57:06,135 :: root :: Create NEW FILE: /home/user/PycharmProjects/ele_new/data/test_24.txt
+2019-02-11 13:57:06,189 :: matplotlib.font_manager :: findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0 to DejaVu Sans (u'/home/user/.local/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000
+2019-02-11 13:57:06,230 :: matplotlib.font_manager :: findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=12.0 to DejaVu Sans (u'/home/user/.local/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000
+2019-02-11 13:57:33,017 :: root :: let it start
+2019-02-11 13:57:33,018 :: root :: CHECK FILE: /home/user/PycharmProjects/ele_new/data/test.txt
+2019-02-11 13:57:33,018 :: root :: CHECK FILE: /home/user/PycharmProjects/ele_new/data/test.txt
+2019-02-11 13:57:33,018 :: root :: CHECK FILE will save:/home/user/PycharmProjects/ele_new/data/test_25.txt
+2019-02-11 13:57:33,018 :: root :: Create NEW FILE: /home/user/PycharmProjects/ele_new/data/test_25.txt
+2019-02-11 13:57:33,036 :: matplotlib.font_manager :: findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0 to DejaVu Sans (u'/home/user/.local/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000
+2019-02-11 13:57:33,061 :: matplotlib.font_manager :: findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=12.0 to DejaVu Sans (u'/home/user/.local/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000
+2019-02-11 13:57:50,720 :: root :: let it start
+2019-02-11 13:57:50,721 :: root :: CHECK FILE: /home/user/PycharmProjects/ele_new/data/test.txt
+2019-02-11 13:57:50,721 :: root :: CHECK FILE: /home/user/PycharmProjects/ele_new/data/test.txt
+2019-02-11 13:57:50,721 :: root :: CHECK FILE will save:/home/user/PycharmProjects/ele_new/data/test_26.txt
+2019-02-11 13:57:50,721 :: root :: Create NEW FILE: /home/user/PycharmProjects/ele_new/data/test_26.txt
+2019-02-11 13:58:22,672 :: root :: let it start
+2019-02-11 13:58:22,673 :: root :: CHECK FILE: /home/user/PycharmProjects/ele_new/data/test.txt
+2019-02-11 13:58:22,674 :: root :: CHECK FILE: /home/user/PycharmProjects/ele_new/data/test.txt
+2019-02-11 13:58:22,674 :: root :: CHECK FILE will save:/home/user/PycharmProjects/ele_new/data/test_27.txt
+2019-02-11 13:58:22,674 :: root :: Create NEW FILE: /home/user/PycharmProjects/ele_new/data/test_27.txt
+2019-02-11 13:58:22,691 :: matplotlib.font_manager :: findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0 to DejaVu Sans (u'/home/user/.local/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000
+2019-02-11 13:58:22,715 :: matplotlib.font_manager :: findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=12.0 to DejaVu Sans (u'/home/user/.local/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000
+2019-02-11 13:59:00,069 :: root :: let it start
+2019-02-11 13:59:00,070 :: root :: CHECK FILE: /home/user/PycharmProjects/ele_new/data/test.txt
+2019-02-11 13:59:00,070 :: root :: CHECK FILE: /home/user/PycharmProjects/ele_new/data/test.txt
+2019-02-11 13:59:00,070 :: root :: CHECK FILE will save:/home/user/PycharmProjects/ele_new/data/test_28.txt
+2019-02-11 13:59:00,070 :: root :: Create NEW FILE: /home/user/PycharmProjects/ele_new/data/test_28.txt
+2019-02-11 14:09:05,345 :: root :: let it start
+2019-02-11 14:09:05,346 :: root :: --------------- NEW ------------------
+2019-02-11 14:09:05,347 :: root :: INIT - START
+2019-02-11 14:09:05,347 :: root :: INIT:: USB_VDS:/dev/my_USB_K2400_VDS
+2019-02-11 14:09:05,347 :: root :: INIT:: USB_VGS:/dev/my_USB_K2400_VGS
+2019-02-11 14:09:05,347 :: root :: INIT:: USB_PIC:/dev/my_USB_PICO

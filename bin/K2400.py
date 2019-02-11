@@ -421,7 +421,6 @@ def off(ser):
     logging.info("SENS OFF [:OUTP OFF]")
     port_write(ser, ":OUTP OFF")
 
-
 def port_error(ser, cmd):
     logging.info("READ ERRORS")
     err = [":STAT:MEAS?  ",
