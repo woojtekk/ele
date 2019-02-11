@@ -36,9 +36,8 @@ class plot():
     def plt_update(self,x,y):
 
         self.pl.scatter(x,y)#, self.txt.split()[2])
-        self.pl.autoscale(enable=True, axis="both", tight=True)
-
-        self.pl.pause(0.01)
+        self.pl.autoscale(enable=True, axis="both", tight=False)
+        self.pl.pause(0.0001)
         return 0
 
 
@@ -79,8 +78,8 @@ class plot():
         except SyntaxError:
             pass
 
-    def save_png(self):
-        f=str(os.path.splitext(self.FName)[0]+".png")
+    def save_png(self,f=""):
+        #f=str(os.path.splitext(self.FName)[0]+".png")
         print "PNG saved to file:", f
         plt.savefig(f)
         return 0

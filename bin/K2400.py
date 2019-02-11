@@ -414,7 +414,20 @@ def file_footer(ser_VGS, ser_VDS):
     print FF
     print "====================================="
 
+    splt()
+
+
     return 0
+
+
+def splt():
+    global PLOT
+    if PLOT:
+        try:
+            plt.save_png(FF+".png")
+        except ValueError:
+            print "Porblem z zapisem obrazka :( "
+            pass
 
 
 def off(ser):
@@ -524,6 +537,7 @@ if __name__ == '__main__':
         log_init(data)
         PLOT = args.fig
 
+        t0=time.time()
 
         x=-20
         while True:
@@ -531,6 +545,9 @@ if __name__ == '__main__':
             y=2*x*x-2*x+1
             txt=str(x)+" "+str(y)
             log_save(txt)
+            t1=time.time()
+            print t1-t0
             if x>=20: break
-            time.sleep(0.005)
+
+        splt()
 

@@ -169,3 +169,103 @@
 2019-02-11 14:09:05,347 :: root :: INIT:: USB_VDS:/dev/my_USB_K2400_VDS
 2019-02-11 14:09:05,347 :: root :: INIT:: USB_VGS:/dev/my_USB_K2400_VGS
 2019-02-11 14:09:05,347 :: root :: INIT:: USB_PIC:/dev/my_USB_PICO
+2019-02-11 14:40:10,767 :: root :: let it start
+2019-02-11 14:40:10,769 :: root :: CHECK FILE: /home/user/PycharmProjects/ele_new/data/test.txt
+2019-02-11 14:40:10,769 :: root :: CHECK FILE: /home/user/PycharmProjects/ele_new/data/test.txt
+2019-02-11 14:40:10,769 :: root :: CHECK FILE will save:/home/user/PycharmProjects/ele_new/data/test.txt
+2019-02-11 14:40:10,769 :: root :: Create NEW FILE: /home/user/PycharmProjects/ele_new/data/test.txt
+2019-02-11 14:40:10,787 :: matplotlib.font_manager :: findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0 to DejaVu Sans (u'/home/user/.local/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000
+2019-02-11 14:40:10,811 :: matplotlib.font_manager :: findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=12.0 to DejaVu Sans (u'/home/user/.local/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000
+2019-02-11 15:01:17,176 :: root :: let it start
+2019-02-11 15:01:17,177 :: root :: CHECK FILE: /home/user/PycharmProjects/ele_new/data/test.txt
+2019-02-11 15:01:17,178 :: root :: CHECK FILE: /home/user/PycharmProjects/ele_new/data/test.txt
+2019-02-11 15:01:17,178 :: root :: CHECK FILE will save:/home/user/PycharmProjects/ele_new/data/test_01.txt
+2019-02-11 15:01:17,178 :: root :: Create NEW FILE: /home/user/PycharmProjects/ele_new/data/test_01.txt
+2019-02-11 15:01:17,196 :: matplotlib.font_manager :: findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0 to DejaVu Sans (u'/home/user/.local/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000
+2019-02-11 15:01:17,220 :: matplotlib.font_manager :: findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=12.0 to DejaVu Sans (u'/home/user/.local/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000
+2019-02-11 15:02:32,638 :: root :: let it start
+2019-02-11 15:02:32,639 :: root :: CHECK FILE: /home/user/PycharmProjects/ele_new/data/test.txt
+2019-02-11 15:02:32,639 :: root :: CHECK FILE: /home/user/PycharmProjects/ele_new/data/test.txt
+2019-02-11 15:02:32,639 :: root :: CHECK FILE will save:/home/user/PycharmProjects/ele_new/data/test_02.txt
+2019-02-11 15:02:32,639 :: root :: Create NEW FILE: /home/user/PycharmProjects/ele_new/data/test_02.txt
+2019-02-11 15:02:32,659 :: matplotlib.font_manager :: findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0 to DejaVu Sans (u'/home/user/.local/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000
+2019-02-11 15:02:32,683 :: matplotlib.font_manager :: findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=12.0 to DejaVu Sans (u'/home/user/.local/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000
+2019-02-11 15:02:32,865 :: root :: CREATE FILE FOOTER
+2019-02-11 15:02:32,865 :: root :: SENS OFF [:OUTP OFF]
+2019-02-11 15:05:26,730 :: root :: let it start
+2019-02-11 15:05:26,731 :: root :: CHECK FILE: /home/user/PycharmProjects/ele_new/data/test.txt
+2019-02-11 15:05:26,731 :: root :: CHECK FILE: /home/user/PycharmProjects/ele_new/data/test.txt
+2019-02-11 15:05:26,732 :: root :: CHECK FILE will save:/home/user/PycharmProjects/ele_new/data/test_03.txt
+2019-02-11 15:05:26,732 :: root :: Create NEW FILE: /home/user/PycharmProjects/ele_new/data/test_03.txt
+2019-02-11 15:05:26,749 :: matplotlib.font_manager :: findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0 to DejaVu Sans (u'/home/user/.local/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000
+2019-02-11 15:05:26,773 :: matplotlib.font_manager :: findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=12.0 to DejaVu Sans (u'/home/user/.local/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000
+2019-02-11 15:05:48,549 :: root :: let it start
+2019-02-11 15:05:48,550 :: root :: CHECK FILE: /home/user/PycharmProjects/ele_new/data/test.txt
+2019-02-11 15:05:48,550 :: root :: CHECK FILE: /home/user/PycharmProjects/ele_new/data/test.txt
+2019-02-11 15:05:48,550 :: root :: CHECK FILE will save:/home/user/PycharmProjects/ele_new/data/test_04.txt
+2019-02-11 15:05:48,550 :: root :: Create NEW FILE: /home/user/PycharmProjects/ele_new/data/test_04.txt
+2019-02-11 15:05:48,568 :: matplotlib.font_manager :: findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0 to DejaVu Sans (u'/home/user/.local/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000
+2019-02-11 15:05:48,592 :: matplotlib.font_manager :: findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=12.0 to DejaVu Sans (u'/home/user/.local/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000
+2019-02-11 15:07:30,192 :: root :: let it start
+2019-02-11 15:07:30,193 :: root :: CHECK FILE: /home/user/PycharmProjects/ele_new/data/test.txt
+2019-02-11 15:07:30,193 :: root :: CHECK FILE: /home/user/PycharmProjects/ele_new/data/test.txt
+2019-02-11 15:07:30,193 :: root :: CHECK FILE will save:/home/user/PycharmProjects/ele_new/data/test_05.txt
+2019-02-11 15:07:30,193 :: root :: Create NEW FILE: /home/user/PycharmProjects/ele_new/data/test_05.txt
+2019-02-11 15:07:30,211 :: matplotlib.font_manager :: findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0 to DejaVu Sans (u'/home/user/.local/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000
+2019-02-11 15:07:30,235 :: matplotlib.font_manager :: findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=12.0 to DejaVu Sans (u'/home/user/.local/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000
+2019-02-11 15:08:27,950 :: root :: let it start
+2019-02-11 15:08:27,951 :: root :: CHECK FILE: /home/user/PycharmProjects/ele_new/data/test.txt
+2019-02-11 15:08:27,951 :: root :: CHECK FILE: /home/user/PycharmProjects/ele_new/data/test.txt
+2019-02-11 15:08:27,951 :: root :: CHECK FILE will save:/home/user/PycharmProjects/ele_new/data/test_06.txt
+2019-02-11 15:08:27,951 :: root :: Create NEW FILE: /home/user/PycharmProjects/ele_new/data/test_06.txt
+2019-02-11 15:08:27,969 :: matplotlib.font_manager :: findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0 to DejaVu Sans (u'/home/user/.local/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000
+2019-02-11 15:08:27,993 :: matplotlib.font_manager :: findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=12.0 to DejaVu Sans (u'/home/user/.local/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000
+2019-02-11 15:08:57,995 :: root :: let it start
+2019-02-11 15:08:57,996 :: root :: CHECK FILE: /home/user/PycharmProjects/ele_new/data/test.txt
+2019-02-11 15:08:57,996 :: root :: CHECK FILE: /home/user/PycharmProjects/ele_new/data/test.txt
+2019-02-11 15:08:57,996 :: root :: CHECK FILE will save:/home/user/PycharmProjects/ele_new/data/test_07.txt
+2019-02-11 15:08:57,996 :: root :: Create NEW FILE: /home/user/PycharmProjects/ele_new/data/test_07.txt
+2019-02-11 15:08:58,015 :: matplotlib.font_manager :: findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0 to DejaVu Sans (u'/home/user/.local/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000
+2019-02-11 15:08:58,040 :: matplotlib.font_manager :: findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=12.0 to DejaVu Sans (u'/home/user/.local/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000
+2019-02-11 15:10:08,057 :: root :: let it start
+2019-02-11 15:10:08,058 :: root :: CHECK FILE: /home/user/PycharmProjects/ele_new/data/test.txt
+2019-02-11 15:10:08,058 :: root :: CHECK FILE: /home/user/PycharmProjects/ele_new/data/test.txt
+2019-02-11 15:10:08,058 :: root :: CHECK FILE will save:/home/user/PycharmProjects/ele_new/data/test_08.txt
+2019-02-11 15:10:08,058 :: root :: Create NEW FILE: /home/user/PycharmProjects/ele_new/data/test_08.txt
+2019-02-11 15:10:08,076 :: matplotlib.font_manager :: findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0 to DejaVu Sans (u'/home/user/.local/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000
+2019-02-11 15:10:08,100 :: matplotlib.font_manager :: findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=12.0 to DejaVu Sans (u'/home/user/.local/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000
+2019-02-11 15:10:25,583 :: root :: let it start
+2019-02-11 15:10:25,584 :: root :: CHECK FILE: /home/user/PycharmProjects/ele_new/data/test.txt
+2019-02-11 15:10:25,585 :: root :: CHECK FILE: /home/user/PycharmProjects/ele_new/data/test.txt
+2019-02-11 15:10:25,585 :: root :: CHECK FILE will save:/home/user/PycharmProjects/ele_new/data/test_09.txt
+2019-02-11 15:10:25,585 :: root :: Create NEW FILE: /home/user/PycharmProjects/ele_new/data/test_09.txt
+2019-02-11 15:10:25,603 :: matplotlib.font_manager :: findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0 to DejaVu Sans (u'/home/user/.local/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000
+2019-02-11 15:10:25,628 :: matplotlib.font_manager :: findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=12.0 to DejaVu Sans (u'/home/user/.local/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000
+2019-02-11 15:10:50,434 :: root :: let it start
+2019-02-11 15:10:50,435 :: root :: CHECK FILE: /home/user/PycharmProjects/ele_new/data/test.txt
+2019-02-11 15:10:50,435 :: root :: CHECK FILE: /home/user/PycharmProjects/ele_new/data/test.txt
+2019-02-11 15:10:50,435 :: root :: CHECK FILE will save:/home/user/PycharmProjects/ele_new/data/test_10.txt
+2019-02-11 15:10:50,435 :: root :: Create NEW FILE: /home/user/PycharmProjects/ele_new/data/test_10.txt
+2019-02-11 15:10:50,453 :: matplotlib.font_manager :: findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0 to DejaVu Sans (u'/home/user/.local/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000
+2019-02-11 15:10:50,477 :: matplotlib.font_manager :: findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=12.0 to DejaVu Sans (u'/home/user/.local/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000
+2019-02-11 15:11:56,819 :: root :: let it start
+2019-02-11 15:11:56,820 :: root :: CHECK FILE: /home/user/PycharmProjects/ele_new/data/test.txt
+2019-02-11 15:11:56,820 :: root :: CHECK FILE: /home/user/PycharmProjects/ele_new/data/test.txt
+2019-02-11 15:11:56,820 :: root :: CHECK FILE will save:/home/user/PycharmProjects/ele_new/data/test_11.txt
+2019-02-11 15:11:56,820 :: root :: Create NEW FILE: /home/user/PycharmProjects/ele_new/data/test_11.txt
+2019-02-11 15:11:56,838 :: matplotlib.font_manager :: findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0 to DejaVu Sans (u'/home/user/.local/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000
+2019-02-11 15:11:56,863 :: matplotlib.font_manager :: findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=12.0 to DejaVu Sans (u'/home/user/.local/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000
+2019-02-11 15:12:30,173 :: root :: let it start
+2019-02-11 15:12:30,174 :: root :: CHECK FILE: /home/user/PycharmProjects/ele_new/data/test.txt
+2019-02-11 15:12:30,175 :: root :: CHECK FILE: /home/user/PycharmProjects/ele_new/data/test.txt
+2019-02-11 15:12:30,175 :: root :: CHECK FILE will save:/home/user/PycharmProjects/ele_new/data/test_12.txt
+2019-02-11 15:12:30,175 :: root :: Create NEW FILE: /home/user/PycharmProjects/ele_new/data/test_12.txt
+2019-02-11 15:12:30,192 :: matplotlib.font_manager :: findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0 to DejaVu Sans (u'/home/user/.local/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000
+2019-02-11 15:12:30,223 :: matplotlib.font_manager :: findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=12.0 to DejaVu Sans (u'/home/user/.local/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000
+2019-02-11 15:13:23,347 :: root :: let it start
+2019-02-11 15:13:23,348 :: root :: CHECK FILE: /home/user/PycharmProjects/ele_new/data/test.txt
+2019-02-11 15:13:23,348 :: root :: CHECK FILE: /home/user/PycharmProjects/ele_new/data/test.txt
+2019-02-11 15:13:23,348 :: root :: CHECK FILE will save:/home/user/PycharmProjects/ele_new/data/test.txt
+2019-02-11 15:13:23,348 :: root :: Create NEW FILE: /home/user/PycharmProjects/ele_new/data/test.txt
+2019-02-11 15:13:23,366 :: matplotlib.font_manager :: findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0 to DejaVu Sans (u'/home/user/.local/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000
+2019-02-11 15:13:23,397 :: matplotlib.font_manager :: findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=12.0 to DejaVu Sans (u'/home/user/.local/lib/python2.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000
