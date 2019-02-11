@@ -39,7 +39,7 @@ PICNPLC     = 1.0
 SSHT        = 0
 FILE        = 0
 FF = " "
-
+PLOT = False
 
 def sht():
     return 0
@@ -118,8 +118,8 @@ def log_reset():
 def log_init(FName):
     global FILE
     global FF
-    global plot
-    plot=K2400_plot.plot()
+    global PLOT
+    if PLOT: plot=K2400_plot.plot()
     FName = checkfile(FName)
     FF    = FName
     logging.info("Create NEW FILE: " + FName)
@@ -139,18 +139,19 @@ def log_init(FName):
 
 
 def log_save(txt):
-    global plot
+    global PLOT
     log_save_to_file(txt)
     log_save_comments()
     log_save_raw(txt)
 
 
-    try:
-        x = float(txt.split()[0])
-        y = float(txt.split()[1])
-        plot.plt_update(x, y)
-    except ValueError:
-        pass
+    if PLOT:
+        try:
+            x = float(txt.split()[0])
+            y = float(txt.split()[1])
+            plot.plt_update(x, y)
+        except ValueError:
+            pass
 
 
 
@@ -437,9 +438,8 @@ if __name__ == '__main__':
     args = K2400_help.help()
     log_reset()
 
-    global fig
-    fig = args.fig
-    print fig
+    global PLOT
+    PLOT = args.fig
 
     # ------- podstawowe parametry:
     if args.filename != "tr00": FILE_NAME = args.filename
