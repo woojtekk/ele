@@ -10,37 +10,37 @@
 # SWEEP     : False
 # Number of Pts.: 20
 # pozycja poczatkowa szhuttera: 0 keep open 0 before measurmeents
-# TIME START:     2019-02-11 08:59:05.455649
+# TIME START:     2019-02-11 08:55:42.858716
 # :: --------------------------- transfer ------------------------------------------
 # ::   VGS          IDS           IGS           VDS         IDS_Time       delta    
 # :: -------------------------------------------------------------------------------
-0.0 +1.714062E-06 +5.422933E-09
-0.5 +1.641708E-06 +9.321337E-09
-1.0 +1.576684E-06 +8.482957E-09
-1.5 +1.512289E-06 +8.231462E-09
-2.0 +1.450534E-06 +8.818310E-09
-2.5 +1.389241E-06 +1.007587E-08
-3.0 +1.331382E-06 +1.020163E-08
-3.5 +1.275366E-06 +8.399121E-09
-4.0 +1.218932E-06 +8.399125E-09
-4.5 +1.166435E-06 +9.153668E-09
-5.0 +1.110169E-06 +1.284249E-08
-5.5 +1.061862E-06 +1.305209E-08
-6.0 +1.017159E-06 +7.183512E-09
-6.5 +9.703192E-07 +9.656688E-09
-7.0 +9.258673E-07 +9.027904E-09
-7.5 +8.823373E-07 +9.489009E-09
-8.0 +8.411531E-07 +1.015972E-08
-8.5 +8.011426E-07 +1.028546E-08
-9.0 +7.626819E-07 +1.036931E-08
-9.5 +7.240115E-07 +1.095615E-08
-10.0 +6.881896E-07 +1.112383E-08
+0.0 +1.708533E-06 +5.800190E-09
+0.5 +1.635758E-06 +9.447087E-09
+1.0 +1.570987E-06 +8.399148E-09
+1.5 +1.506843E-06 +8.231453E-09
+2.0 +1.444962E-06 +8.902163E-09
+2.5 +1.384171E-06 +9.614771E-09
+3.0 +1.326438E-06 +8.566801E-09
+3.5 +1.269459E-06 +9.153664E-09
+4.0 +1.214658E-06 +9.866289E-09
+4.5 +1.161032E-06 +9.153668E-09
+5.0 +1.110840E-06 +9.614780E-09
+5.5 +1.060354E-06 +9.908195E-09
+6.0 +1.013222E-06 +8.734485E-09
+6.5 +9.620655E-07 +1.196221E-08
+7.0 +9.217610E-07 +6.806233E-09
+7.5 +8.777291E-07 +8.482965E-09
+8.0 +8.367124E-07 +9.321354E-09
+8.5 +7.957376E-07 +1.053698E-08
+9.0 +7.580726E-07 +1.036931E-08
+9.5 +7.210369E-07 +1.032740E-08
+10.0 +6.847541E-07 +1.078849E-08
 #
 #----------------------- FOOTER ------------------------------------
 # DEV_1 VDS:  KEITHLEY INSTRUMENTS INC.,MODEL 2400,4033786,C32   Oct  4 2010 14:20:11/A02  /T/K
-# DEV_1 VDS: Serial<id=0xb2b324ac, open=True>(port='/dev/my_USB_K2400_VGS', baudrate=9600, bytesize=8, parity='N', stopbits=1, timeout=1, xonxoff=0, rtscts=1, dsrdtr=False)
+# DEV_1 VDS: Serial<id=0xb2b1e58c, open=True>(port='/dev/my_USB_K2400_VGS', baudrate=9600, bytesize=8, parity='N', stopbits=1, timeout=1, xonxoff=0, rtscts=1, dsrdtr=False)
 # DEV_2 VGS:  KEITHLEY INSTRUMENTS INC.,MODEL 2400,1322544,C32   Oct  4 2010 14:20:11/A02  /R/J
-# DEV_1 VDS: Serial<id=0xb23b5b8c, open=True>(port='/dev/my_USB_K2400_VDS', baudrate=9600, bytesize=8, parity='N', stopbits=1, timeout=1, xonxoff=0, rtscts=1, dsrdtr=False)
+# DEV_1 VDS: Serial<id=0xb239fc6c, open=True>(port='/dev/my_USB_K2400_VDS', baudrate=9600, bytesize=8, parity='N', stopbits=1, timeout=1, xonxoff=0, rtscts=1, dsrdtr=False)
 #
 # ======= ERROR'S @ VDS
 ## :STAT:MEAS?   	 64 
@@ -62,4 +62,4 @@
 #
 #
 # ----* zajaczkowksi@mpip-mainz.mpg.de *-------------------------------
-# ----- End of file 2019-02-11 08:59:09.561441 created by:/home/mar345/src/ele_git/ele/bin/K2400.pyc
+# ----- End of file 2019-02-11 08:55:46.948489 created by:/home/mar345/src/ele_git/ele/bin/K2400.py

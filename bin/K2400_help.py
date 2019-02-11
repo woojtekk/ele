@@ -70,21 +70,20 @@ def help():
                         help='help:  mesure current for each point for n sec.',
                         default=0)
 
-    parser.add_argument('--sweep',
-                        help='help: wait n sec before mesure current',
+    parser.add_argument('--nosweep',
+                        help='help: set NO SWEEP measurements',
                         dest="sweep",
                         action="store_false")
 
     parser.add_argument('-q',
-                        help='help: wait  fr start ',
+                        help='help: wait  for start command',
                         dest="waitstart",
                         action="store_true")
 
     parser.add_argument('--fig',
                         help='show real time figure with data',
                         dest="fig",
-                        action="store_false",
-                        default=False)
+                        action="store_false")
 
 
     return parser.parse_args()

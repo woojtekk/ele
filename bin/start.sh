@@ -1,3 +1,5 @@
 #!/bin/bash
+plik=`pwd`
+plik2=$(dirname $plik)"/wd/start.txt"
 
-echo "START" > /home/mar345/ele/ele/wd/start.sh
+echo "START" > $plik2

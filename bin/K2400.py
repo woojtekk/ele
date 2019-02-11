@@ -438,14 +438,13 @@ if __name__ == '__main__':
     args = K2400_help.help()
     log_reset()
 
-    global PLOT
-    PLOT = args.fig
 
     # ------- podstawowe parametry:
     if args.filename != "tr00": FILE_NAME = args.filename
     if args.shutter:
         print "SHUTTER WILL BE OPEN"
         with open(FILE_SSHT, 'w+') as the_file: the_file.write("ON " + str(args.shutter))
+
 
     if args.out:
         # ------- OUTPUT: parametry pomiaru
@@ -464,6 +463,8 @@ if __name__ == '__main__':
         PICNPLC = NPLC
         DEL = float(args.DEL)
         SWEEP = True
+	global PLOT
+    	PLOT = args.fig
 
         ser = init()
         output_param = [FName, VDS_start, VDS_stop, VDS_step, VDS_comp, VGS_start, VGS_stop, VGS_step, VGS_comp, NPLC,
@@ -483,6 +484,8 @@ if __name__ == '__main__':
         DEL = args.DEL
         sht = args.shutter
         ww = args.waitstart
+	global PLOT
+    	PLOT = args.fig
 
         ser = init()
         param_timesteps = [FName, VDS, VDS_comp, VGS, VGS_comp, NPLC, DEL, sht, ww]
@@ -501,9 +504,11 @@ if __name__ == '__main__':
         NPLC = args.NPLC
         PICNPLC = NPLC
         DEL = args.DEL
-        SWEEP = True
+        SWEEP = args.sweep
         ttime = args.wait
         sht = args.shutter
+	global PLOT
+    	PLOT = args.fig
 
         param_transfer = [FName, VDS, VGS_start, VGS_stop, VGS_step, VDS_comp, VGS_comp, NPLC, DEL, SWEEP, ttime, sht]
         ser = init()
