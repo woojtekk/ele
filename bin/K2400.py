@@ -484,7 +484,7 @@ if __name__ == '__main__':
         DEL = args.DEL
         sht = args.shutter
         ww = args.waitstart
-	global PLOT
+	    global PLOT
     	PLOT = args.fig
 
         ser = init()
@@ -507,7 +507,7 @@ if __name__ == '__main__':
         SWEEP = args.sweep
         ttime = args.wait
         sht = args.shutter
-	global PLOT
+	    global PLOT
     	PLOT = args.fig
 
         param_transfer = [FName, VDS, VGS_start, VGS_stop, VGS_step, VDS_comp, VGS_comp, NPLC, DEL, SWEEP, ttime, sht]
