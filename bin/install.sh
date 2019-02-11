@@ -1,9 +1,6 @@
 #!/bin/bash
 
-#DIR="/inhouse/2019/run04_19_xrd_mainz/"
-DIR="/prog"
-HOMEPATH=$HOME$DIR
-
+HOMEPATH=`pwd`
 
 clear
 echo "------------------------------"
