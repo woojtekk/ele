@@ -1,9 +1,6 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 
-
-
-import K2400
 import K2400_help
 import K2400_time
 import K2400_output
@@ -13,6 +10,7 @@ import signal
 import logging
 import serial
 import os
+import time
 import fcntl
 import sys
 import shutil
@@ -39,8 +37,8 @@ PICNPLC     = 1.0
 SSHT        = 0
 FILE        = 0
 FF = " "
-PLOT = False
-
+PLOT = ""
+plt=K2400_plot.plot()
 def sht():
     return 0
 
@@ -119,7 +117,10 @@ def log_init(FName):
     global FILE
     global FF
     global PLOT
-    if PLOT: plot=K2400_plot.plot()
+    # global plt
+    # if PLOT:
+    #     plt=K2400_plot.plot()
+
     FName = checkfile(FName)
     FF    = FName
     logging.info("Create NEW FILE: " + FName)
@@ -140,6 +141,7 @@ def log_init(FName):
 
 def log_save(txt):
     global PLOT
+    #global plt
     log_save_to_file(txt)
     log_save_comments()
     log_save_raw(txt)
@@ -149,7 +151,7 @@ def log_save(txt):
         try:
             x = float(txt.split()[0])
             y = float(txt.split()[1])
-            plot.plt_update(x, y)
+            plt.plt_update(x, y)
         except ValueError:
             pass
 
@@ -210,9 +212,12 @@ def init():
     logging.info("INIT:: USB_VGS:" + USB_VGS)
     logging.info("INIT:: USB_PIC:" + USB_PICO)
 
+
     ser_VDS = init_port(USB_VDS)
+
     ser_VGS = init_port(USB_VGS)
     ser_PIC = init_port(USB_PICO)
+
     logging.info("INIT:: ser_VDS:" + str(ser_VDS))
     logging.info("INIT:: ser_VGS:" + str(ser_VGS))
     logging.info("INIT:: ser_PIC:" + str(ser_PIC))
@@ -244,7 +249,7 @@ def init_port(PortUSB):
             print ":: K2400 :: Port temporarily unavailable ..... exit"
             sys.exit()
     else:
-        print ":: K2400 :: Some problem with Port ...... exit"
+        print ":: K2400 :: Some problems with Port ...... exit"
         sys.exit()
 
     ser.flushOutput()
@@ -291,7 +296,7 @@ def init_controler_pic(ser):
         # port_write(ser,":DISPlay:ENABle OFF")
 
         except Exception, e1:
-            print ":: ERROR: promlem with communicating ...: " + str(e1)
+            print ":: ERROR: problem with communicating ...: " + str(e1)
     else:
         print ":: ERROR: Can not open serial port: ", ser
     logging.info("INIT_CONTROLER_PIC")
@@ -438,13 +443,12 @@ if __name__ == '__main__':
     args = K2400_help.help()
     log_reset()
 
-
+    print args.test
     # ------- podstawowe parametry:
     if args.filename != "tr00": FILE_NAME = args.filename
     if args.shutter:
         print "SHUTTER WILL BE OPEN"
         with open(FILE_SSHT, 'w+') as the_file: the_file.write("ON " + str(args.shutter))
-
 
     if args.out:
         # ------- OUTPUT: parametry pomiaru
@@ -463,8 +467,7 @@ if __name__ == '__main__':
         PICNPLC = NPLC
         DEL = float(args.DEL)
         SWEEP = True
-	global PLOT
-    	PLOT = args.fig
+        PLOT = args.fig
 
         ser = init()
         output_param = [FName, VDS_start, VDS_stop, VDS_step, VDS_comp, VGS_start, VGS_stop, VGS_step, VGS_comp, NPLC,
@@ -484,8 +487,7 @@ if __name__ == '__main__':
         DEL = args.DEL
         sht = args.shutter
         ww = args.waitstart
-	    global PLOT
-    	PLOT = args.fig
+        PLOT = args.fig
 
         ser = init()
         param_timesteps = [FName, VDS, VDS_comp, VGS, VGS_comp, NPLC, DEL, sht, ww]
@@ -507,12 +509,29 @@ if __name__ == '__main__':
         SWEEP = args.sweep
         ttime = args.wait
         sht = args.shutter
-	    global PLOT
-    	PLOT = args.fig
+        PLOT = args.fig
 
         param_transfer = [FName, VDS, VGS_start, VGS_stop, VGS_step, VDS_comp, VGS_comp, NPLC, DEL, SWEEP, ttime, sht]
         ser = init()
         K2400_transfer.transfer_steps(ser, *param_transfer)
         port_close(ser)
 
-    sys.exit()
+        sys.exit()
+
+    if args.test:
+        data=PATH_DATA+"test.txt"
+        print PLOT
+
+        log_init(data)
+        PLOT = args.fig
+
+
+        x=-20
+        while True:
+            x+=0.5
+            y=2*x*x-2*x+1
+            txt=str(x)+" "+str(y)
+            log_save(txt)
+            if x>=20: break
+            time.sleep(0.005)
+

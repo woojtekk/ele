@@ -83,7 +83,12 @@ def help():
     parser.add_argument('--fig',
                         help='show real time figure with data',
                         dest="fig",
-                        action="store_false")
+                        action="store_true")
+
+    parser.add_argument('--test',
+                        help='only for simulation',
+                        dest="test",
+                        action="store_true")
 
 
     return parser.parse_args()

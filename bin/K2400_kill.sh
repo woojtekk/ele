@@ -6,5 +6,5 @@ then
 echo "KILLING PROCESS:" $proc
 kill -9 $proc
 else
-	echo "Nobody to KILL !!!"
+	echo "Notikng  to KILL !!!"
 fi
